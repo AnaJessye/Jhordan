@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Dicas" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F99E00"
+        android:text="Como se preparar?"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft = "@drawable/seta"
+        android:text="  Leia jornais e revistas porque os temas sociais e atuais têm predomimado nas principais avaliações do país nos últimos anos. A leitura também ajuda a aumentar o vocabulário."
+        android:textColor="#050505"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft = "@drawable/seta"
+        android:text="  Tire as dúvidas antecipadamente com seu professor sobre as questões escíficas. Dúvidas na hora da prova só aumentam a ansiedade, o que será prejudicial nesse momento."
+        android:textColor="#050505"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft = "@drawable/seta"
+        android:text="  Faça o ENADE com consciência e valorize seu diploma. Você só vai ter essa chance"
+        android:textColor="#050505"/>
+
+    <view
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F99E00"
+        android:text="No dia do Exame"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft = "@drawable/seta"
+        android:text="  Antes de passar as respostas para o gabarito, verifique se não esqueceu de resolver ou pulou alguma questão."
+        android:textColor="#050505"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft = "@drawable/seta"
+        android:text="  Preste muita atenção na hora de transcrever as respostas da prova paraq o gabarito. Erro nesse moneto é desastroso."
+        android:textColor="#050505"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft = "@drawable/seta"
+        android:text="  Inicie sua prova pelas questões discursivas, em seguida responda as objetivas."
+        android:textColor="#050505"/>
+
+    <view
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F99E00"
+        android:text="Questões Objetivas"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft = "@drawable/seta"
+        android:text="  Deixe por último as questões objetivas que tenha dúvidas."
+        android:textColor="#050505"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft = "@drawable/seta"
+        android:text="  Elimine de início as alternativas que se mostrem estranhas ao assunto enfocado."
+        android:textColor="#050505"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft = "@drawable/seta"
+        android:text="  Busque as alternativas que apresentem maior coerência com o conteúdo cobrado"
+        android:textColor="#050505"/>
+
+    <view
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F99E00"
+        android:text="Questões Discursivas"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft = "@drawable/seta"
+        android:text="  Identificar claramente a situação ou problema proposto."
+        android:textColor="#050505"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+</LinearLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="27dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rendimento"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#000"/>
+
+        <view
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="75dp"
+            android:background="#f2f2f2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Engenharia de Software"
+                android:textAllCaps="true"
+                android:textColor="#F99E00"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simulado 1:"
+                android:textAllCaps="true"
+                android:textColor="#008080"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simulado 2:"
+                android:textAllCaps="true"
+                android:textColor="#008080"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <view
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="75dp"
+            android:background="#e5e5e5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="paradigmas de programação"
+                android:textAllCaps="true"
+                android:textColor="#F99E00"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simulado 1:"
+                android:textAllCaps="true"
+                android:textColor="#008080"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simulado 2:"
+                android:textAllCaps="true"
+                android:textColor="#008080"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <view
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="75dp"
+            android:background="#f2f2f2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matemática Discreta"
+                android:textAllCaps="true"
+                android:textColor="#F99E00"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simulado 1:"
+                android:textAllCaps="true"
+                android:textColor="#008080"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:text="Simulado 2:"
+                android:textAllCaps="true"
+                android:textColor="#008080"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#F99E00"
+            android:text="VOLTAR"
+            android:textColor="#fff"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
